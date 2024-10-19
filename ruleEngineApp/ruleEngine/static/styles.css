@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+.sbtn{
+    background-color: rgb(111, 173, 29);
+    width: 30%; 
+    border-radius: 45%; 
+    margin-left: 60%;
+}
+
+#form-container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+select {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Allow auto height to adjust based on the content */
+    overflow: hidden;
+    white-space: pre-wrap; /* Wrap long lines */
+    word-wrap: break-word; /* Break words if necessary */
+    max-height: 200%; /* Set a maximum height for the dropdown */
+    text-overflow: ellipsis; /* Add ellipsis to indicate overflow */
+}
+
+option {
+    white-space: pre-wrap; /* Wrap the text inside the options */
+    word-wrap: break-word; /* Break long words */
+}
+input[type="text"], input[type="number"] {
+    width: 99%;
+    height: 25px;
+}
