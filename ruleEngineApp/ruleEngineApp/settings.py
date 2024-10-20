@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 import os
 from pathlib import Path
-import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +26,7 @@ SECRET_KEY = 'django-insecure-yi19((ejyk$5ic9m14jtnovswv77hvdt=74-!93iyyb7e(_a#3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ruleEngine.onrender.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -83,7 +82,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-DATABASES['default']= dj_database_url.parse('postgresql://zeotap_user:PbiFKZBjEB2BhXx2jK1Yr9eR6w7FYPAH@dpg-cs9bedrtq21c739rhpig-a.oregon-postgres.render.com/zeotap')
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
